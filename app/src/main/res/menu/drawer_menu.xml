@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/home" />
+    <item
+        android:id="@+id/map"
+        android:icon="@drawable/ic_group_black_24dp"
+        android:title="@string/map" />
+    <item
+        android:id="@+id/dataBase"
+        android:icon="@drawable/ic_storage_black_24dp"
+        android:title="@string/database" />
+    <item
+        android:id="@+id/dailyExercise"
+        android:icon="@drawable/ic_directions_run_black_24dp"
+        android:title="@string/daily_exercise" />
+    <item
+        android:id="@+id/exercises"
+        android:icon="@drawable/ic_description_black_24dp"
+        android:title="@string/exercises" />
+</menu>
