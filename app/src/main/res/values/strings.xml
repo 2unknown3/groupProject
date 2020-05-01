@@ -1,12 +1,15 @@
 <resources>
     <string name="app_name">Harta</string>
-    <string name="drawer_header">Drawer Header</string>
+    <string name="drawer_header">Harta App</string>
     <string name="open">Open</string>
     <string name="close">Close</string>
     <string name="map">Current Location</string>
     <string name="home">Home</string>
     <string name="database">Database</string>
-    <string name="daily_exercise">Daily Exercise</string>
+    <string name="daily_exercise">Daily Exercises</string>
     <string name="exercises">Exercises Description</string>
+    <string name="bpm">BPM</string>
+    <string name="search_device">Search Pulse Sensor</string>
+    <string name="profile">Profile</string>
 
 </resources>

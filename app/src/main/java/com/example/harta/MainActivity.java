@@ -22,6 +22,7 @@ import com.google.android.material.navigation.NavigationView;
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener{
 
+
     DrawerLayout drawerLayout;
     ActionBarDrawerToggle actionBarDrawerToggle;
     Toolbar toolbar;
@@ -83,11 +84,31 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         drawerLayout.closeDrawer(GravityCompat.START);
         LocationManager locationManager = (LocationManager) getSystemService(LOCATION_SERVICE);
 
+
+        if(item.getItemId() == R.id.profile){
+
+            fragmentManager = getSupportFragmentManager();
+            fragmentTransaction = fragmentManager.beginTransaction();
+            fragmentTransaction.replace(R.id.container_fragment,new ProfileFragment());
+            fragmentTransaction.commit();
+
+        }
+
+
         if(item.getItemId() == R.id.home){
 
             fragmentManager = getSupportFragmentManager();
             fragmentTransaction = fragmentManager.beginTransaction();
             fragmentTransaction.replace(R.id.container_fragment,new MainFragment());
+            fragmentTransaction.commit();
+
+        }
+
+        if(item.getItemId() == R.id.scanBtDevice){
+
+            fragmentManager = getSupportFragmentManager();
+            fragmentTransaction = fragmentManager.beginTransaction();
+            fragmentTransaction.replace(R.id.container_fragment,new ScanDevice());
             fragmentTransaction.commit();
 
         }
@@ -132,6 +153,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             fragmentTransaction.commit();
 
         }
+
 
         return true;
     }

@@ -3,23 +3,32 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
+        android:id="@+id/profile"
+        android:icon="@drawable/ic_person_black_24dp"
+        android:title="@string/profile" />
+    <item
         android:id="@+id/home"
         android:icon="@drawable/ic_home_black_24dp"
         android:title="@string/home" />
     <item
+        android:id="@+id/scanBtDevice"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="@string/search_device" />
+    <item
         android:id="@+id/map"
-        android:icon="@drawable/ic_group_black_24dp"
+        android:icon="@drawable/ic_location_on_black_24dp"
         android:title="@string/map" />
     <item
         android:id="@+id/dataBase"
         android:icon="@drawable/ic_storage_black_24dp"
-        android:title="@string/database" />
+        android:title="History" />
+    <item
+        android:id="@+id/exercises"
+        android:icon="@drawable/ic_description_black_24dp"
+        android:title="Statistics" />
     <item
         android:id="@+id/dailyExercise"
         android:icon="@drawable/ic_directions_run_black_24dp"
         android:title="@string/daily_exercise" />
-    <item
-        android:id="@+id/exercises"
-        android:icon="@drawable/ic_description_black_24dp"
-        android:title="@string/exercises" />
+
 </menu>
