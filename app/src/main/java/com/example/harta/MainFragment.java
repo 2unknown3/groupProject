@@ -81,7 +81,7 @@ public class MainFragment extends Fragment {
     DatabaseHelper myDB;
     Cursor cursor;
     int highBpm=0, lowBpm=0;
-    String smsMsg = "", currLocation ="";
+    String smsMsg = "", currLocation ="" , viewLocation= "";
 
     @SuppressLint("HandlerLeak")
     @Nullable
@@ -558,7 +558,7 @@ public class MainFragment extends Fragment {
 
         if(checkSmsPermission(Manifest.permission.SEND_SMS)){
             SmsManager smsManager = SmsManager.getDefault();
-            smsManager.sendTextMessage(phone,null,msg + " "+ currLocation,null,null);
+            smsManager.sendTextMessage(phone,null,msg + " "+ currLocation +"/n"+viewLocation,null,null); // MAO RANI AKO GI DUNGAG  +"/n"+viewLocation
             Toast.makeText(getContext(),"Message Sent!", Toast.LENGTH_LONG).show();
         }
         else {
@@ -596,6 +596,8 @@ public class MainFragment extends Fragment {
                     double lat = locationResult.getLocations().get(latestLocationIndex).getLatitude();
                     double lon = locationResult.getLocations().get(latestLocationIndex).getLongitude();
                     currLocation = String.format("Latitude: %s\nLongitude: %s",lat,lon);
+                    viewLocation = "View Location on GoogleMap https://maps.google.com/maps?q="+lat+","+lon; //GI DUNGAGAG NKO NI
+
                 }
             }
         }, Looper.getMainLooper());
