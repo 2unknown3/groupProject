@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:ndroid="http://schemas.android.com/tools"
-    android:background="@color/colorPrimary">
+    android:background="@color/design_default_color_secondary_variant">
 
 
     <!--    <TextView-->
@@ -23,7 +23,7 @@
         android:layout_height="50dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="150dp"
         android:textSize="13sp"
         android:text="Begin Sensory Re-Education" />
 
