@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <!--  <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentTop="true"
+          android:layout_centerHorizontal="true"
+          android:layout_marginTop="1dp"
+          android:text="Sensory Re-Education"
+          android:textColor="@android:color/black"
+          android:textSize="20sp" />
+  -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/titleLegWindow"
+                android:text="Advance Level Clam Exercises"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:id="@+id/msgLegAdvanceTitle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/titleLegWindow"
+                android:layout_alignParentStart="true"
+                android:textColor="@android:color/black"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"/>
+            <TextView
+                android:id="@+id/titleLegAdvance1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Exercise 7:  Basic Clams Exercise – In Sitting "
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_below="@id/msgLegAdvanceTitle" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imgLegAdvance1"
+                android:layout_below="@id/titleLegAdvance1" />
+
+            <TextView
+                android:id="@+id/msgLegAdvance1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/imgLegAdvance1"
+                android:layout_alignParentStart="true"
+                android:textColor="@android:color/black"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"/>
+            <TextView
+                android:id="@+id/titleLegAdvance2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Exercise 8:  Intermediate Clams Exercise – Hip Openers"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_below="@id/msgLegAdvance1" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imgLegAdvance2"
+                android:layout_below="@id/titleLegAdvance2" />
+
+            <TextView
+                android:id="@+id/msgLegAdvance2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/imgLegAdvance2"
+                android:layout_alignParentStart="true"
+                android:textColor="@android:color/black"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"/>
+            <TextView
+                android:id="@+id/titleLegAdvance3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Exercise 9:  Advanced Clams Exercise"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_below="@id/msgLegAdvance2" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imgLegAdvance3"
+                android:layout_below="@id/titleLegAdvance3" />
+
+            <TextView
+                android:id="@+id/msgLegAdvance3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/imgLegAdvance3"
+                android:layout_alignParentStart="true"
+                android:textColor="@android:color/black"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"/>
+
+
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+
+</RelativeLayout>

@@ -154,6 +154,15 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
         }
 
+        if(item.getItemId() == R.id.RehabExercise){
+
+            fragmentManager = getSupportFragmentManager();
+            fragmentTransaction = fragmentManager.beginTransaction();
+            fragmentTransaction.replace(R.id.container_fragment,new RehabFragment());
+            fragmentTransaction.commit();
+
+        }
+
 
         return true;
     }

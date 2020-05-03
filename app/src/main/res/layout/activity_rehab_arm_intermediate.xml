@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <!--  <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentTop="true"
+          android:layout_centerHorizontal="true"
+          android:layout_marginTop="1dp"
+          android:text="Sensory Re-Education"
+          android:textColor="@android:color/black"
+          android:textSize="20sp" />
+  -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/titleWindow"
+                android:text="Intermediate Level Exercises"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:id="@+id/msgArmIntermediateTitle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/titleWindow"
+                android:layout_alignParentStart="true"
+                android:textColor="@android:color/black"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"/>
+            <TextView
+                android:id="@+id/titleArmIntermediate1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Exercise #3 Elbow Stretch"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_below="@id/msgArmIntermediateTitle" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imgArmIntermediate1"
+                android:layout_below="@id/titleArmIntermediate1" />
+            <TextView
+                android:id="@+id/msgArmIntermediate1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/imgArmIntermediate1"
+                android:layout_alignParentStart="true"
+                android:textColor="@android:color/black"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"/>
+            <TextView
+                android:id="@+id/titleArmIntermediate2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Exercise #4 Crawling Stretch"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_below="@id/msgArmIntermediate1" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imgArmIntermediate2"
+                android:layout_below="@id/titleArmIntermediate2" />
+            <TextView
+                android:id="@+id/msgArmIntermediate2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/imgArmIntermediate2"
+                android:layout_alignParentStart="true"
+                android:textColor="@android:color/black"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"/>
+            <TextView
+                android:id="@+id/titleArmIntermediate3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Exercise #5 Wrist Motion"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_below="@id/msgArmIntermediate2" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imgArmIntermediate3"
+                android:layout_below="@id/titleArmIntermediate3" />
+            <TextView
+                android:id="@+id/msgArmIntermediate3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/imgArmIntermediate3"
+                android:layout_alignParentStart="true"
+                android:textColor="@android:color/black"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"/>
+
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+
+</RelativeLayout>

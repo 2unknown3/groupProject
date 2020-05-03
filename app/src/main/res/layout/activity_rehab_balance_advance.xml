@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <!--  <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentTop="true"
+          android:layout_centerHorizontal="true"
+          android:layout_marginTop="1dp"
+          android:text="Sensory Re-Education"
+          android:textColor="@android:color/black"
+          android:textSize="20sp" />
+  -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/titleBalanceWindow"
+                android:text="Advance Level Exercises"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:id="@+id/msgBalanceAdvanceTitle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/titleBalanceWindow"
+                android:layout_alignParentStart="true"
+                android:textColor="@android:color/black"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"/>
+            <TextView
+                android:id="@+id/titleBalanceAdvance1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Exercise 7:  Single Leg Standing"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_below="@id/msgBalanceAdvanceTitle" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imgBalanceAdvance1"
+                android:layout_below="@id/titleBalanceAdvance1" />
+
+            <TextView
+                android:id="@+id/msgBalanceAdvance1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/imgBalanceAdvance1"
+                android:layout_alignParentStart="true"
+                android:textColor="@android:color/black"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"/>
+            <TextView
+                android:id="@+id/titleBalanceAdvance2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Exercise 8:  Backwards Walking"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_below="@id/msgBalanceAdvance1" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imgBalanceAdvance2"
+                android:layout_below="@id/titleBalanceAdvance2" />
+
+            <TextView
+                android:id="@+id/msgBalanceAdvance2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/imgBalanceAdvance2"
+                android:layout_alignParentStart="true"
+                android:textColor="@android:color/black"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"/>
+            <TextView
+                android:id="@+id/titleBalanceAdvance3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Exercise 9:  Weighted Ball Pass"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_below="@id/msgBalanceAdvance2" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imgBalanceAdvance3"
+                android:layout_below="@id/titleBalanceAdvance3" />
+
+            <TextView
+                android:id="@+id/msgBalanceAdvance3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/imgBalanceAdvance3"
+                android:layout_alignParentStart="true"
+                android:textColor="@android:color/black"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"/>
+
+
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+
+</RelativeLayout>

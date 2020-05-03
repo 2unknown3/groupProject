@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <!--  <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentTop="true"
+          android:layout_centerHorizontal="true"
+          android:layout_marginTop="1dp"
+          android:text="Sensory Re-Education"
+          android:textColor="@android:color/black"
+          android:textSize="20sp" />
+  -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/titleShoulderWindow"
+                android:text="Intermediate Level Shoulder Exercises"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:id="@+id/msgShoulderIntermediateTitle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/titleShoulderWindow"
+                android:layout_alignParentStart="true"
+                android:textColor="@android:color/black"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"/>
+            <TextView
+                android:id="@+id/titleShoulderIntermediate1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Exercise 3: Towel Slides (Intermediate)"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_below="@id/msgShoulderIntermediateTitle" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imgShoulderIntermediate1"
+                android:layout_below="@id/titleShoulderIntermediate1" />
+
+            <TextView
+                android:id="@+id/msgShoulderIntermediate1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/imgShoulderIntermediate1"
+                android:layout_alignParentStart="true"
+                android:textColor="@android:color/black"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"/>
+            <TextView
+                android:id="@+id/titleShoulderIntermediate2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Exercise 4: External Rotation with Cane"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_below="@id/msgShoulderIntermediate1" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imgShoulderIntermediate2"
+                android:layout_below="@id/titleShoulderIntermediate2" />
+
+            <TextView
+                android:id="@+id/msgShoulderIntermediate2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/imgShoulderIntermediate2"
+                android:layout_alignParentStart="true"
+                android:textColor="@android:color/black"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"/>
+
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+
+</RelativeLayout>

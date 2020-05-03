@@ -46,7 +46,28 @@
         <service android:name=".ExampleService" />
         <activity android:name=".SplashScreen" />
         <activity android:name=".MainActivity" />
-
+        <activity android:name=".RehabExercises.RehabShoulderAdvance" />
+        <activity android:name=".RehabExercises.RehabShoulderIntermediate" />
+        <activity android:name=".RehabExercises.RehabLegAdvance" />
+        <activity android:name=".RehabExercises.RehabLegIntermediate" />
+        <activity android:name=".RehabExercises.RehabCoreAdvance" />
+        <activity android:name=".RehabExercises.RehabCoreIntermediate" />
+        <activity android:name=".RehabExercises.RehabBalanceAdvance" />
+        <activity android:name=".RehabExercises.RehabBalanceIntermediate" />
+        <activity android:name=".RehabExercises.RehabShoulderBasic" />
+        <activity android:name=".RehabExercises.RehabLegBasic" />
+        <activity android:name=".RehabExercises.RehabCoreBasic" />
+        <activity android:name=".RehabExercises.RehabBalanceBasic" />
+        <activity android:name=".RehabExercises.RehabArmAdvance" />
+        <activity android:name=".RehabExercises.RehabArmIntermediate" />
+        <activity android:name=".RehabExercises.RehabArmBasic" />
+        <activity android:name=".RehabExercises.RehabShoulder" />
+        <activity android:name=".RehabExercises.RehabLeg" />
+        <activity android:name=".RehabExercises.RehabHand" />
+        <activity android:name=".RehabExercises.RehabCore" />
+        <activity android:name=".RehabExercises.RehabBalance" />
+        <activity android:name=".RehabExercises.RehabArm" />
+        <activity android:name=".RehabExercises.RehabSensoryReEd" />
     </application>
 
 </manifest>
