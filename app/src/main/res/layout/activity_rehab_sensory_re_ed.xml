@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+  <!--  <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="1dp"
+        android:text="Sensory Re-Education"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+-->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp">
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/titleWindow"
+            android:text="Sensory Reeducation Exercises"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/msgSensoryTitle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/titleWindow"
+            android:layout_alignParentStart="true"
+            android:textColor="@android:color/black"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"/>
+          <TextView
+              android:id="@+id/titleSensory1"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:text="1. Tabletop Touch Therapy"
+              android:textColor="@android:color/black"
+              android:textSize="20sp"
+              android:textStyle="bold"
+              android:layout_below="@id/msgSensoryTitle" />
+        <TextView
+            android:id="@+id/msgSensory1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/titleSensory1"
+            android:layout_alignParentStart="true"
+            android:textColor="@android:color/black"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"/>
+        <TextView
+            android:id="@+id/titleSensory2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="2. Texture Hunting"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_below="@id/msgSensory1" />
+        <TextView
+            android:id="@+id/msgSensory2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/titleSensory2"
+            android:layout_alignParentStart="true"
+            android:textColor="@android:color/black"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"/>
+        <TextView
+            android:id="@+id/titleSensory3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="3. Texture Handling"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_below="@id/msgSensory2" />
+        <TextView
+            android:id="@+id/msgSensory3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/titleSensory3"
+            android:layout_alignParentStart="true"
+            android:textColor="@android:color/black"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"/>
+        <TextView
+            android:id="@+id/titleSensory4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="4. Temperature Differentiation"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_below="@id/msgSensory3" />
+        <TextView
+            android:id="@+id/msgSensory4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/titleSensory4"
+            android:layout_alignParentStart="true"
+            android:textColor="@android:color/black"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"/>
+        <TextView
+            android:id="@+id/titleSensory5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="5. Sensory Locating"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_below="@id/msgSensory4" />
+        <TextView
+            android:id="@+id/msgSensory5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/titleSensory5"
+            android:layout_alignParentStart="true"
+            android:textColor="@android:color/black"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"/>
+
+
+      </RelativeLayout>
+
+    </ScrollView>
+
+
+
+</RelativeLayout>

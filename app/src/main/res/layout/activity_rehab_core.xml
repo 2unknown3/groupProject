@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+
+    <TextView
+        android:id="@+id/titleDes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Core Exercises for Stroke Recovery"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/msgCoreTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titleDes"
+        android:layout_alignParentStart="true"
+        android:textColor="@android:color/black"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"/>
+
+    <Button
+        android:id="@+id/basicCoreBtn"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/msgCoreTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="Basic Level Exercises"
+        android:textSize="13sp" />
+
+    <Button
+        android:id="@+id/intermediateCoreBtn"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/basicCoreBtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textSize="13sp"
+        android:text="Intermediate Level Exercise" />
+
+    <Button
+        android:id="@+id/advanceCoreBtn"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/intermediateCoreBtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textSize="13sp"
+        android:text="Advance Level Exercise" />
+
+</RelativeLayout>
