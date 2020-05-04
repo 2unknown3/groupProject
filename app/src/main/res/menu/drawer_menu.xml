@@ -33,6 +33,6 @@
     <item
         android:id="@+id/RehabExercise"
         android:icon="@drawable/ic_rehab"
-        android:title="Rehab Exercises" /> <!-- mao ni ako na dungag -->
+        android:title="Rehab Manual Exercises" /> <!-- mao ni ako na dungag -->
 
 </menu>
