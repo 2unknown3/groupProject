@@ -2,7 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimary">
+    >
 
     <TextView
         android:id="@+id/titleDes"
@@ -12,6 +12,7 @@
         android:layout_centerHorizontal="true"
         android:text="Leg Exercises for Stroke Recovery"
         android:textColor="@android:color/black"
+        android:layout_margin="50dp"
         android:textSize="20sp" />
     <TextView
         android:id="@+id/msgLegTitle"
@@ -30,6 +31,7 @@
         android:layout_below="@+id/msgLegTitle"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="5dp"
+        android:background="@drawable/buttondesign"
         android:text="Basic Level Exercises"
         android:textSize="13sp" />
 
@@ -41,6 +43,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="30dp"
         android:textSize="13sp"
+        android:background="@drawable/buttondesign"
         android:text="Intermediate Level Exercise" />
 
     <Button
@@ -51,6 +54,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="30dp"
         android:textSize="13sp"
+        android:background="@drawable/buttondesign"
         android:text="Advance Level Exercise" />
 
 </RelativeLayout>

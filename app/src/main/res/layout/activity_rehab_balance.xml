@@ -2,7 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimary">
+    >
 
 
 
@@ -14,6 +14,7 @@
         android:layout_centerHorizontal="true"
         android:text="Balance Exercises for Stroke Recovery"
         android:textColor="@android:color/black"
+        android:layout_margin="50dp"
         android:textSize="20sp" />
     <TextView
         android:id="@+id/msgBalanceTitle"
@@ -29,9 +30,11 @@
         android:id="@+id/basicBalanceBtn"
         android:layout_width="300dp"
         android:layout_height="80dp"
+        android:layout_below="@id/msgBalanceTitle"
+        android:layout_marginTop="200dp"
         android:layout_alignTop="@+id/msgBalanceTitle"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="200dp"
+        android:background="@drawable/buttondesign"
         android:text="Basic Level Exercises"
         android:textSize="13sp" />
 
@@ -42,6 +45,7 @@
         android:layout_below="@+id/basicBalanceBtn"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="30dp"
+        android:background="@drawable/buttondesign"
         android:text="Intermediate Level Exercise"
         android:textSize="13sp" />
 
@@ -53,6 +57,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="30dp"
         android:textSize="13sp"
+        android:background="@drawable/buttondesign"
         android:text="Advance Level Exercise" />
 
 

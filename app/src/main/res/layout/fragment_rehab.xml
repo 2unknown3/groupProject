@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:ndroid="http://schemas.android.com/tools"
-    android:background="@color/design_default_color_secondary_variant">
+    xmlns:ndroid="http://schemas.android.com/tools">
 
 
     <!--    <TextView-->
@@ -14,9 +15,7 @@
     <!--        android:text="Rehab"-->
     <!--        android:textColor="@android:color/black"-->
     <!--        android:textSize="30sp" />-->
-
-
-
+\
     <Button
         android:id="@+id/sensoryBtn"
         android:layout_width="300dp"
@@ -25,6 +24,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="150dp"
         android:textSize="13sp"
+        android:background="@drawable/buttondesign"
         android:text="Begin Sensory Re-Education" />
 
 
@@ -36,6 +36,7 @@
         android:layout_below="@+id/sensoryBtn"
         android:layout_alignStart="@+id/sensoryBtn"
         android:layout_marginTop="10dp"
+        android:background="@drawable/buttondesign"
         android:text="Arm Exercises"
         android:textSize="13sp" />
 
@@ -46,6 +47,7 @@
         android:layout_below="@+id/armExercisesBtn"
         android:layout_alignStart="@+id/sensoryBtn"
         android:layout_marginTop="10dp"
+        android:background="@drawable/buttondesign"
         android:text="Balance Exercises"
         android:textSize="13sp" />
 
@@ -56,6 +58,7 @@
         android:layout_below="@+id/balanceExercisesBtn"
         android:layout_alignStart="@+id/sensoryBtn"
         android:layout_marginTop="11dp"
+        android:background="@drawable/buttondesign"
         android:text="Core Exercises"
         android:textSize="13sp" />
 
@@ -66,6 +69,7 @@
         android:layout_below="@+id/coreExercisesBtn"
         android:layout_alignStart="@+id/sensoryBtn"
         android:layout_marginTop="10dp"
+        android:background="@drawable/buttondesign"
         android:text="Hand Exercises"
         android:textSize="13sp" />
 
@@ -76,6 +80,7 @@
         android:layout_below="@+id/handExercisesBtn"
         android:layout_alignStart="@+id/sensoryBtn"
         android:layout_marginTop="10dp"
+        android:background="@drawable/buttondesign"
         android:text="Leg Exercises"
         android:textSize="13sp" />
 
@@ -86,12 +91,8 @@
         android:layout_below="@+id/legExercisesBtn"
         android:layout_alignStart="@+id/sensoryBtn"
         android:layout_marginTop="10dp"
+        android:background="@drawable/buttondesign"
         android:text="Shoulder Exercises"
         android:textSize="13sp" />
-
-
-
-
-
 
 </RelativeLayout>
