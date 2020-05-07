@@ -4,8 +4,8 @@
         <layer-list>
             <item android:right="5dp" android:top="5dp">
                 <shape>
-                    <corners android:radius="3dp" />
-                    <solid android:color="#909697" />
+                    <corners android:radius="9dp" />
+                    <solid android:color="#929393" />
                 </shape>
             </item>
 
@@ -14,7 +14,7 @@
                     <gradient android:angle="270"
                         android:endColor="#FFFFFF" android:startColor="#FFFFFF" />
                     <stroke android:width="2dp" android:color="#01D6F1" />
-                    <corners android:radius="4dp" />
+                    <corners android:radius="15dp" />
                     <padding android:bottom="10dp" android:left="10dp"
                         android:right="10dp" android:top="10dp" />
                 </shape>
